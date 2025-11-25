@@ -13,10 +13,6 @@ public class OrderCardTest {
 
     @BeforeAll
     public static void setupAll() {
-        System.setProperty(
-        "webdriver.chrome.driver",
-        "C:\\Users\\Elizaveta.DESKTOP-D895T9V\\Desktop\\chromedriver-win64\\chromedriver.exe"
-    );
         WebDriverManager.chromedriver().setup();
     }
 
